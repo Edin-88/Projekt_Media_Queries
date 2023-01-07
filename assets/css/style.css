@@ -1,0 +1,196 @@
+/* ============== GLOBAL STYLES ================== */
+
+@font-face {
+    font-family: 'nunito-italic';
+    src: url("../fonts/Nunito-Italic-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: 'rocksalt';
+    src: url("../fonts/RockSalt-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'nunito-regular';
+    src: url("../fonts/Nunito-VariableFont_wght.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headerStyle {
+    height: 100vh;
+    background-image: url("../img/dog_catching_snack.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.docCatchingSnackImage h1 {
+font-family: "rockSalt";
+text-align: center;
+padding: 4vh 0;
+}
+
+.docCatchingSnackImage p {
+    font-family: "nunito-regular";
+    padding-right: 4vw;
+    text-align: right;
+    color: rgb(221, 120, 117);
+}
+
+.howItWorks {
+    height: 80vh;
+}
+
+.styleHowItWorks {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(221, 120, 117);
+}
+
+.styleHowItWorks h2 {
+    color: whitesmoke;
+    font-family: "nunito-regular";
+    font-variation-settings: "wght" 600;
+}
+
+.numberPink {
+    color: rgb(221, 120, 117);
+    font-size: 2.5rem;
+    font-family: nunito-regular;
+    font-variation-settings: "wght" 900;
+    padding: 4.7vh 0;
+}
+
+.positionCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "nunito-regular";
+    font-size: 0.9rem;
+    padding: 0 2.5vw;
+    
+}
+
+.wahtsOnMenu {
+    height: 80vh;
+}
+
+.whatsOnMenuStyle {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(221, 120, 117);     
+}
+
+.whatsOnMenuStyle h2{
+        color: whitesmoke;
+        font-family: "nunito-regular";
+        font-variation-settings: "wght" 600;  
+}
+
+.dogEatImage {
+    background-image: url("../img/dog_eating_cookies.jpg");
+    height: 25vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.dogBowlCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.positionAndFontChange{
+    font-family: "nunito-regular";
+    position: relative;
+}
+
+.positionAbsolute h4:nth-of-type(1) {
+position: relative;
+top: 7vh;
+left: 27vw;
+}
+
+.positionAbsolute h4:nth-of-type(2) {
+    position: relative;
+    top: 12vh;
+    left: 65vw;  
+}
+
+.positionAbsolute h4:nth-of-type(3) {
+    position: relative;
+    top: 18vh;
+    left: 35vw;  
+}
+.aboutRecipes {
+    font-family: "nunito-italic";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 8vh;
+    font-size: 0.9rem;
+}
+
+footer {
+    height: 50vh;
+    background-color: rgb(33, 33, 33);
+}
+
+.signupText {
+    padding-top: 3vh;
+}
+
+.signupText p{
+    color: white;
+    text-align: center;
+    
+}
+
+.emailAdress {
+    padding-top: 3vh;
+}
+
+.emailAdress h4 {
+    text-align: center;
+    color: lightgray;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: white;
+    margin: 0 12vw;
+    padding: 2vh 0;
+}
+
+.emailAdress {
+    padding-bottom: 2vh;
+}
+
+.SignUp h4 {
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: rgb(221, 120, 117);
+    margin: 0 12vw;
+    padding: 2vh 0;
+}
+
+.icons {
+    padding-top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.copyRight {
+    padding-top: 2vh;
+    color: white;
+    text-align: center;
+}
