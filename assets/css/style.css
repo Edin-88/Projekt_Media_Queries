@@ -23,9 +23,11 @@
 
 .headerStyle {
     height: 100vh;
+    width: 100%;
     background-image: url("../img/dog_catching_snack.jpg");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .docCatchingSnackImage h1 {
@@ -111,6 +113,7 @@ padding: 4vh 0;
 .positionAndFontChange{
     font-family: "nunito-regular";
     position: relative;
+    width: fit-content;
 }
 
 .positionAbsolute h4:nth-of-type(1) {
@@ -130,6 +133,7 @@ left: 27vw;
     top: 18vh;
     left: 35vw;  
 }
+
 .aboutRecipes {
     font-family: "nunito-italic";
     display: flex;
